@@ -1,0 +1,47 @@
+#TOP_NAV{
+  height: 100px;
+  width: 100%;
+}
+
+#CONTENT_OUTER_CONTAINER{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.form-horizontal > div.form-group label{
+	width: 100%;
+	padding-top: 3px;
+}
+
+label.required:after{
+	content: "*";
+	color: red;
+}
+
+div.btn-bar > *{
+	float:right;
+}
+
+a {
+	cursor: pointer;
+}

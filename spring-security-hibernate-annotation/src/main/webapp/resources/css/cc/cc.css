@@ -1,0 +1,113 @@
+#OUTLINE_PANEL > div{
+	border: 1px solid #337ab7;
+	padding: 0px;
+}
+
+#OUTLINE_PANEL a{
+}
+
+#OUTLINE_PANEL a:hover{
+	color: #aabbff;
+}
+
+#OUTLINE_PANEL input{
+	color: #333333;
+}
+
+#OUTLINE_PANEL div.panel-body{
+	max-height: 600px;
+	overflow-y: auto;
+}
+
+#OUTLINE_PANEL span.topic-header-text{
+	float:left;
+	width: 70%;
+	display: inline;
+}
+
+#OUTLINE_PANEL div.topic-header{
+	width: 100%;
+	overflow: hidden;
+}
+
+div.topic-block{
+	padding-bottom: 10px;
+}
+
+div.topic-block div.add-new-slide{
+	padding-left: 30px;
+	height: 20pt;
+	float: left;
+	margin-top: 5px;
+}
+
+div.topic-header{
+	width: 100%;
+	padding: 5px;
+}
+
+div.topic-slide{
+	width: 100%;
+	float: left;
+	clear: left;
+	padding: 3px 5px 0px 30px;
+	min-height: 22pt;
+}
+
+div.topic-slide.active{
+	color: white;
+	background: #337ab7;
+}
+
+div.topic-slide:hover{
+	background: #b8dcf9;
+	cursor: pointer;
+	color: white;
+}
+
+span.slide-header-text{
+	float: left;
+	width: 80%;
+}
+
+div.topic-slide button.delete-slide, div.topic-slide button.update-slide {
+	display: none;
+}
+
+div.topic-slide:hover button.delete-slide, div.topic-slide:hover button.update-slide {
+	display: inherit;
+	color: black;
+}
+
+
+
+
+div.panel-header{
+	width: 100%;
+	background: #337ab7;
+	padding: 5px;
+	margin: 0px;
+	color: #FFFFFF;
+}
+
+div.panel-header *{
+	margin: 0px;
+}
+
+div.panel-body{
+	padding: 0px;
+}
+
+div.panel-body *{
+	margin: 0px;
+}
+
+
+
+#EDIT_CONTENT_CONTAINER{
+}
+
+
+#SLIDE_EDITOR{
+	display:none !important;
+}

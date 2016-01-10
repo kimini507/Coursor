@@ -1,0 +1,32 @@
+
+{{#each topics}}
+<div class="topic-block" data-topic-id={{id}}> 
+	<div class="topic-header">
+		<div>
+			<h4>
+				<span class="topic-header-text" data-toggle="tooltip" data-placement="top" title="{{header}}">{{header}}</span>
+				<button class="btn btn-xs pull-right delete-topic">
+					<span class="glyphicon glyphicon-trash"></span>
+				</button>
+				<button class="btn btn-xs pull-right edit-topic" data-toggle="modal" data-target="#TOPIC_MODAL">
+					<span class="glyphicon glyphicon-pencil"></span>
+				</button>
+			</h4>
+		</div>
+	</div>
+
+	<div>
+
+		{{#each slides}}
+		{{> sliderow}}
+		{{/each}}
+
+		<div class="add-new add-new-slide">
+			<button class="btn btn-xs" data-toggle="modal" data-target="#SLIDE_MODAL">
+				<span class="glyphicon glyphicon-plus"></span>
+				Add slide 
+			</button>
+		</div>
+	</div>
+</div>
+{{/each}}	

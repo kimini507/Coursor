@@ -1,0 +1,44 @@
+#MANAGEMENT_TAB ul li a{
+	min-width: 150px;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	border-radius: 0px;
+}
+
+#MANAGEMENT_TAB ul li{
+}
+
+#MANAGEMENT_TAB{
+	border-bottom: 3px solid #337AB7;
+	margin-bottom: 20px;
+}
+
+#USER_MANAGEMENT{
+	margin-bottom: 20px;
+}
+
+#USER_MANAGEMENT ul li a{
+	border-radius: 100px;
+	min-width: 120px;
+	text-align: center;
+}
+
+#USER_MANAGEMENT ul li.active a{
+	background-color: #669BB7;
+	
+}
+
+#USER_LIST_CONTAINER{
+	margin-top:5px;
+	width: 100%;
+}
+
+#USER_LIST_CONTAINER table{
+	width: 100%;
+}
+
+#USER_LIST tr div{
+	height: 14pt;
+	overflow: hidden;
+}
